@@ -11,12 +11,14 @@ Virtualenv
 ##Installation
 
 It relys on a mongodb instance running on the default port on the same machine, which you can change in the settings.py. If you want the database populated, make sure you have a mongodb instance running, then clone the 5e-db repository and run mongorestore.
-```cd 5e-db
+```
+cd 5e-db
 mongorestore -db 5e-dnd
 ```
 
 it's easiest if you clone the repository into /var/www/, otherwise you will need to change the path in the wsgi.ini file and 5e-api script to point to the actual location. 
-```cd /var/www/
+```
+cd /var/www/
 sudo git clone https://github.com/Cschlaefli/5e-api
 ```
 
@@ -24,7 +26,8 @@ To actually run the api, you need to first install virtualenv
 
 Create a virtualenv named env in the cloned repository, and install the requirements.txt to the env
 (as root)
-```cd 5e-api
+```
+cd 5e-api
 virtualenv env
 source env/bin/activate
 pip3 install -r requirements.txt
