@@ -8,6 +8,8 @@ MONGO_PORT = 27017
 ITEM_METHODS = ['GET']
 RESOURCE_METHODS = ['GET']
 
+APPLICATION_ROOT = "/home/cslaf/5e-api-service"
+
 MONGO_DBNAME = '5e-dnd'
 
 choice_schema = {

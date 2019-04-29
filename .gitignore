@@ -1,3 +1,5 @@
 eve-docs
 5e-database
 dump
+__pycache__
+env
