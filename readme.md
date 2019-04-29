@@ -39,7 +39,7 @@ The last line is to install my branch of eve_docs included in the repo, you can 
 It also runs by default as www, so you'll need to create that system user and change the ownership of 5e-api for it to run, if you want to run it as a different user, just change the gid and uid in the wsgi.ini
 ```
 sudo useradd -r www
-chown -R www:www 5e-api
+chown -R www:www ./
 ```
 
 Then the 5e-api script will run the application on wsgi port :5000, which you can use nginx or apache to forward traffic to. If you want to expose the wsgi application directly, change the wsgi.ini line
