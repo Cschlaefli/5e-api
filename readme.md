@@ -5,7 +5,7 @@ It does not include the mongodb databases with the actual SRD information, I hav
 
 ##Requirements
 
-Mongodb
+Mongodb,
 Virtualenv
 
 ##Installation
@@ -31,9 +31,9 @@ cd 5e-api
 virtualenv env
 source env/bin/activate
 pip3 install -r requirements.txt
-pip3 install eve_docs/setup.py
+pip3 install ./eve_docs
 ```
-The last line is to install my branch of eve_docs included in the repo
+The last line is to install my branch of eve_docs included in the repo, you can use the pip repo for eve_docs, but I can't be sure it will work
 
 
 It also runs by default as www, so you'll need to create that system user and change the ownership of 5e-api for it to run, if you want to run it as a different user, just change the gid and uid in the wsgi.ini
