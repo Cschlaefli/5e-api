@@ -13,7 +13,7 @@ Virtualenv
 It relys on a mongodb instance running on the default port on the same machine, which you can change in the settings.py. If you want the database populated, make sure you have a mongodb instance running, then clone the 5e-db repository and run mongorestore.
 ```
 cd 5e-db
-mongorestore -db 5e-dnd
+mongorestore -d 5e-dnd 5e-dnd
 ```
 
 it's easiest if you clone the repository into /var/www/, otherwise you will need to change the path in the wsgi.ini file and 5e-api script to point to the actual location. 
