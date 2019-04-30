@@ -5,7 +5,7 @@ It does not include the mongodb databases with the actual SRD information, I hav
 
 ## Requirements
 
-Mongodb,
+Mongodb,Mongotools
 Virtualenv
 
 ## Installation
