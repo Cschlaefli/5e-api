@@ -3,12 +3,12 @@ This is a simple python eve project that provides an API for the 5th edition SRD
 It does not include the mongodb databases with the actual SRD information, I have collected them here https://github.com/Cschlaefli/5e-db
 
 
-##Requirements
+## Requirements
 
 Mongodb,
 Virtualenv
 
-##Installation
+## Installation
 
 It relys on a mongodb instance running on the default port on the same machine, which you can change in the settings.py. If you want the database populated, make sure you have a mongodb instance running, then clone the 5e-db repository and run mongorestore.
 ```
