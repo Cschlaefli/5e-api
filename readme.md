@@ -6,7 +6,7 @@ It does not include the mongodb databases with the actual SRD information, I hav
 ## Requirements
 
 Mongodb,Mongotools
-Virtualenv
+Virtualenv, Python3-dev(el)
 
 ## Installation
 
